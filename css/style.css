@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  background-color: #222;
+  text-align: center;
+}
+
+canvas {
+  margin: 50px auto;
+  background-color: #222;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.quad,
+.stats,
+.slot,
+.myButton {
+  background-color: #111;
+  color: #ddd;
+  font-family: Arial;
+  border-radius: 6px;
+  font-size: 36px;
+  border: 1px solid #000;
+  display: inline-block;
+  cursor: default;
+  width: 164px;
+  height: 64px;
+  line-height: 64px;
+}
+
+.myButton {
+  border-radius: 6px;
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  outline: none;
+}
+
+.myButton:hover {
+  background: #333;
+  color: #000
+}
+
+.stats {
+  padding: 12px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.slot {
+  cursor: pointer;
+  width: 64px;
+}
